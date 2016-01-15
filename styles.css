@@ -1,0 +1,333 @@
+/*****************
+GENERAL STYLING
+******************/
+.clear {
+	clear: both;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	text-align: justify;
+}
+header {
+	margin: 20px 0 5px 0 ; 
+}
+.logo {
+	width: 45px;
+	margin-top: -15px;
+	margin-left: 10px;
+	position: absolute;
+}
+h1 {
+	font-size: 1.5em;
+	margin: 0 0 0 60px;
+	
+}
+h2 {
+	font-family: 'Calligraffitti', cursive;
+	letter-spacing: 2.5px;
+	font-size: 2em;
+	margin: 0;
+}
+h3 {
+	font-size: 1.2em;
+}
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+/*header picture*/
+header {
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*****************
+	NAV 
+******************/
+nav a {						
+	text-decoration: none;
+	padding: 5px 15px 0;
+} 
+nav ul { 
+	list-style:none;  
+	padding: 0;
+	margin: -22px auto 0;
+	
+	 }  
+nav ul li { 
+	display: inline; 
+	margin: 0;
+	background-color: rgba(116, 140, 154, .8);	
+	border-radius: 10px 10px 0 0;
+} 
+nav a:link, nav a:visited {
+	color: #000;	
+} 
+
+nav a:hover {
+	color: rgb(58, 156, 201);
+	background-color: #fff;
+	border-radius: 10px 10px 0 0;
+}
+.selected {
+	color: rgb(58, 156, 201);
+	background-color: #fff;
+	border-radius: 10px 10px 0 0;
+}
+
+
+/*****************
+  GENERAL CLASSES 
+******************/
+/*.container {			
+	width:100%; 
+	background-color: #fff;*/
+/*}*/
+.main {	
+	overflow: auto;
+	padding: 5px;
+}
+
+/*****************
+	ABOUT 
+******************/
+/*.main_left { 	
+	width:85%; 
+	padding: 0 1em;
+	margin: .5em auto;
+	border-radius: 10px;
+	background-color: rgba(116, 140, 154, .3);
+	border: 1px outset #999;
+}  
+.about {
+	padding: 15px 0;
+}
+/*.about p:first-child:first-letter  {
+	font-size: 3em;
+}*/
+
+/*****************
+  SPECIAL SECTION
+******************/
+/*.main_right { 
+	width:85%; 
+	padding:  10px;
+	margin: 0 auto;
+	border-radius: 10px;
+	background-color: rgba(116, 140, 154, .3);
+	border: 1px outset #999;
+} */
+/*.main_right img {
+	border-radius: 5px 5px;
+} 
+.main_right .specialOffers {
+	padding: 5px;
+}*/
+
+/*******************
+	BOOKING FORM
+********************/
+.bookingform {
+	min-width:200px; 
+	padding:  10px;
+	margin: 0 auto;
+	border-radius: 10px;
+	background-color: rgba(116, 140, 154, .3);
+	border: 1px outset #999;
+}
+
+.bookingform legend {
+	margin: 4px;
+}
+
+.button input {
+	margin: auto;
+	display: block;
+}
+
+form {
+	border: outset 2px grey;
+	min-width:220px; 
+	border-radius: 10px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+
+.formContainer form {
+	float: left;
+	margin-left: 5px;
+}
+
+.worldmap img {
+	max-width: 800px;
+	float: left;
+	display: inline-block;
+	padding-left: 10px;
+
+
+}
+
+/*.worldmap.style {
+	max-width: 200px;
+	float: left;
+	display: inline;
+	padding-left: 10px;
+}*/
+
+/*.formContainer {
+	background-image: url("/Users/kayleecummings/Pictures/NSS/Group Projects/Team Spiders/worldmapfinal.jpg");
+	background-position: right;
+	background-size: 400px;
+	background-repeat: no-repeat;
+}*/
+
+/* WORLD MAP PICTURE */
+
+/*.worldmap img{
+	width: 20%;
+	display: inline;
+	float: right;
+	margin: 0 auto;
+	
+
+
+
+}*/
+
+/*****************
+	DESTINATIONS
+******************/
+/*.destinations {
+	width:96%; 
+	padding: 1% 1% 5%;
+	margin: 1%;
+	border-radius: 10px;
+	border: 1px outset #999;
+}
+.destinations:nth-of-type(n+2) {
+	margin-top: 5%;
+}
+.allDestinations h2 {
+	font-size: 2em;
+	margin-left: 2%;
+
+}
+.destinations img {
+	border-radius: 5px 5px 0;
+
+}
+.allDestinations {
+	padding: 1%;
+	margin: 0 auto;
+}
+.destinations button {
+	border-radius: 10px;
+	
+}
+.destinations button a {
+	color: rgb(6, 99, 228);
+	
+}
+
+*/
+
+/*****************
+	FOOTER 
+******************/
+.footer { 
+	border-top: 1px outset grey;
+	font-size: .8em;
+	padding: 15px;
+	margin: 15px;
+	text-align: right;
+
+}  
+/*****************
+START MEDIA QUERIES
+******************/
+@media screen and (min-width: 650px) { 
+	.destinations {
+		float: left;
+		width: 29%;
+	}
+	.destinations {
+	border: none
+}
+	.destinations:hover {
+		border: 3px outset #999;
+}
+	.destinations:nth-child(n+2) {
+		margin-top: 1%;
+	}
+	.allDestinations h2 {
+		font-size: 2.5em;
+		margin-left: 2%;
+	}
+
+}
+
+@media screen and (min-width: 750px) { 
+	.main_left { 
+		float:left; 
+		width:59%; 
+		padding: 0 2.5%;
+		margin-left: 2%;
+	
+	}  
+	.main_right { 
+		float: right;
+		width:25%;  
+		margin: 10px 2.5% 0 0;
+		padding: 0 1em;
+		max-width: 300px;
+	}  
+	h1 {
+		font-size: 2.5em;
+		margin: 0 0 0 75px;
+	}
+	.logo {
+		width: 65px;
+		margin-top: -15px;
+		margin-left: 10px;
+		position: absolute;
+	}
+	.specialOffers p {
+		font-size: .9em;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.main_left {
+		width:63%; 
+		padding: 0 1.5%;
+		margin-left: 1.5%;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.main_left {
+		width:69%; 
+	}
+	.main_right {
+		width: 20%;
+	}
+	h1 {
+		font-size: 2.5em;
+	}
+	h2 {
+		font-size: 1.7em;
+	}
+	h3 {
+		font-size: 1.4em;
+	}
+	p {
+		font-size: 1.2em;
+	}
+}
+
+
+
+
