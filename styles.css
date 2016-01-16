@@ -8,21 +8,36 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 100%;
-	text-align: justify;
+	
 }
 header {
 	margin: 20px 0 5px 0 ; 
 }
+header img {
+	margin-top: 45px;
+}
+
 .logo {
-	width: 45px;
-	margin-top: -15px;
+	width: 55px;
+	margin-top: -12px;
 	margin-left: 10px;
 	position: absolute;
 }
 h1 {
-	font-size: 1.5em;
-	margin: 0 0 0 60px;
+	font-size: 1.75em;
+	margin: -10px 0 0 65px;
+	position: absolute;
 	
+}
+img {
+	width: 100%;
+}
+.smallFont {
+	position: absolute;
+	top: 38px;
+	left: 65px;
+	font-size: 15px;
+	font-family: 'Calligraffitti', cursive;
 }
 h2 {
 	font-family: 'Calligraffitti', cursive;
@@ -38,12 +53,6 @@ p {
 	line-height: 1.5em;
 }
 
-/*header picture*/
-header {
-	width: 100%;
-	margin: 0 auto;
-}
-
 /*****************
 	NAV 
 ******************/
@@ -54,7 +63,7 @@ nav a {
 nav ul { 
 	list-style:none;  
 	padding: 0;
-	margin: -22px auto 0;
+	margin: -27px auto 0;
 	
 	 }  
 nav ul li { 
@@ -82,10 +91,10 @@ nav a:hover {
 /*****************
   GENERAL CLASSES 
 ******************/
-/*.container {			
+.container {			
 	width:100%; 
-	background-color: #fff;*/
-/*}*/
+	background-color: #fff;
+}
 .main {	
 	overflow: auto;
 	padding: 5px;
@@ -94,7 +103,7 @@ nav a:hover {
 /*****************
 	ABOUT 
 ******************/
-/*.main_left { 	
+.main_left { 	
 	width:85%; 
 	padding: 0 1em;
 	margin: .5em auto;
@@ -105,27 +114,27 @@ nav a:hover {
 .about {
 	padding: 15px 0;
 }
-/*.about p:first-child:first-letter  {
-	font-size: 3em;
-}*/
+.about p:first-child:first-letter  {
+	font-size: 2em;
+}
 
 /*****************
   SPECIAL SECTION
 ******************/
-/*.main_right { 
+.main_right { 
 	width:85%; 
 	padding:  10px;
 	margin: 0 auto;
 	border-radius: 10px;
 	background-color: rgba(116, 140, 154, .3);
 	border: 1px outset #999;
-} */
-/*.main_right img {
+} 
+.main_right img {
 	border-radius: 5px 5px;
 } 
 .main_right .specialOffers {
 	padding: 5px;
-}*/
+}
 
 /*******************
 	BOOKING FORM
@@ -170,13 +179,17 @@ form {
 
 
 }
-
+/*/*header picture*/
+/*header {
+	width: 100%;
+	margin: 0 auto;
+}*/*/
 /*.worldmap.style {
 	max-width: 200px;
 	float: left;
 	display: inline;
 	padding-left: 10px;
-}*/
+}
 
 /*.formContainer {
 	background-image: url("/Users/kayleecummings/Pictures/NSS/Group Projects/Team Spiders/worldmapfinal.jpg");
@@ -201,7 +214,7 @@ form {
 /*****************
 	DESTINATIONS
 ******************/
-/*.destinations {
+.destinations {
 	width:96%; 
 	padding: 1% 1% 5%;
 	margin: 1%;
@@ -233,7 +246,7 @@ form {
 	
 }
 
-*/
+
 
 /*****************
 	FOOTER 
@@ -255,7 +268,7 @@ START MEDIA QUERIES
 		width: 29%;
 	}
 	.destinations {
-	border: none
+		border: none
 }
 	.destinations:hover {
 		border: 3px outset #999;
@@ -291,12 +304,28 @@ START MEDIA QUERIES
 	}
 	.logo {
 		width: 65px;
-		margin-top: -15px;
+		margin-top: -10px;
 		margin-left: 10px;
 		position: absolute;
 	}
 	.specialOffers p {
 		font-size: .9em;
+	}
+	header img {
+	margin-top: 55px;
+}
+
+	h1 {	
+	margin: -10px 0 0 75px;
+	position: absolute;
+	
+}
+.smallFont {
+	position: absolute;
+	top: 50px;
+	left: 75px;
+	font-size: 15px;
+	font-family: 'Calligraffitti', cursive;
 	}
 }
 
