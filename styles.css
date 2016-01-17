@@ -8,26 +8,41 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 100%;
-	text-align: justify;
+	
 }
 header {
 	margin: 20px 0 5px 0 ; 
 }
+header img {
+	margin-top: 45px;
+}
+
 .logo {
-	width: 45px;
-	margin-top: -15px;
+	width: 55px;
+	margin-top: -12px;
 	margin-left: 10px;
 	position: absolute;
 }
 h1 {
-	font-size: 1.5em;
-	margin: 0 0 0 60px;
+	font-size: 1.75em;
+	margin: -10px 0 0 65px;
+	position: absolute;
 	
+}
+img {
+	width: 100%;
+}
+.smallFont {
+	position: absolute;
+	top: 38px;
+	left: 65px;
+	font-size: 15px;
+	font-family: 'Calligraffitti', cursive;
 }
 h2 {
 	font-family: 'Calligraffitti', cursive;
-	letter-spacing: 2.5px;
-	font-size: 2em;
+	letter-spacing: 2px;
+	font-size: 1.75em;
 	margin: 0;
 }
 h3 {
@@ -36,12 +51,11 @@ h3 {
 p {
 	font-size: 1em;
 	line-height: 1.5em;
+	text-align: justify;
 }
-
-/*header picture*/
-header {
-	width: 100%;
+.specialButton button{
 	margin: 0 auto;
+	display: block;
 }
 
 /*****************
@@ -54,7 +68,7 @@ nav a {
 nav ul { 
 	list-style:none;  
 	padding: 0;
-	margin: -22px auto 0;
+	margin: -27px auto 0;
 	
 	 }  
 nav ul li { 
@@ -82,10 +96,10 @@ nav a:hover {
 /*****************
   GENERAL CLASSES 
 ******************/
-/*.container {			
+.container {			
 	width:100%; 
-	background-color: #fff;*/
-/*}*/
+	background-color: #fff;
+}
 .main {	
 	overflow: auto;
 	padding: 5px;
@@ -94,7 +108,7 @@ nav a:hover {
 /*****************
 	ABOUT 
 ******************/
-/*.main_left { 	
+.main_left { 	
 	width:85%; 
 	padding: 0 1em;
 	margin: .5em auto;
@@ -105,33 +119,33 @@ nav a:hover {
 .about {
 	padding: 15px 0;
 }
-/*.about p:first-child:first-letter  {
-	font-size: 3em;
-}*/
+.about p:first-child:first-letter  {
+	font-size: 2em;
+}
 
 /*****************
   SPECIAL SECTION
 ******************/
-/*.main_right { 
+.main_right { 
 	width:85%; 
 	padding:  10px;
 	margin: 0 auto;
 	border-radius: 10px;
 	background-color: rgba(116, 140, 154, .3);
 	border: 1px outset #999;
-} */
-/*.main_right img {
+} 
+.main_right img {
 	border-radius: 5px 5px;
 } 
 .main_right .specialOffers {
-	padding: 5px;
-}*/
+	padding: 5px 5px 15px 5px;
+}
 
 /*******************
 	BOOKING FORM
 ********************/
 .bookingform {
-	min-width:200px; 
+	min-width:250px; 
 	padding:  10px;
 	margin: 0 auto;
 	border-radius: 10px;
@@ -140,7 +154,7 @@ nav a:hover {
 }
 
 .bookingform legend {
-	margin: 4px;
+	margin: 12px 4px 4px 4px;
 }
 
 .button input {
@@ -150,33 +164,37 @@ nav a:hover {
 
 form {
 	border: outset 2px grey;
-	min-width:220px; 
+	min-width:270px; 
 	border-radius: 10px;
 	margin: 0 auto;
 	padding: 10px;
 }
-
+.formContainer {
+	margin-left: 8%;
+}
 
 .formContainer form {
 	float: left;
-	margin-left: 5px;
+	margin-left: 15px;
 }
 
 .worldmap img {
-	max-width: 800px;
-	float: left;
-	display: inline-block;
-	padding-left: 10px;
+	margin: 0 auto;
+	width: 85%;
 
 
 }
-
+/*/*header picture*/
+/*header {
+	width: 100%;
+	margin: 0 auto;
+}*/*/
 /*.worldmap.style {
 	max-width: 200px;
 	float: left;
 	display: inline;
 	padding-left: 10px;
-}*/
+}
 
 /*.formContainer {
 	background-image: url("/Users/kayleecummings/Pictures/NSS/Group Projects/Team Spiders/worldmapfinal.jpg");
@@ -201,7 +219,7 @@ form {
 /*****************
 	DESTINATIONS
 ******************/
-/*.destinations {
+.destinations {
 	width:96%; 
 	padding: 1% 1% 5%;
 	margin: 1%;
@@ -233,7 +251,7 @@ form {
 	
 }
 
-*/
+
 
 /*****************
 	FOOTER 
@@ -255,7 +273,7 @@ START MEDIA QUERIES
 		width: 29%;
 	}
 	.destinations {
-	border: none
+		border: none
 }
 	.destinations:hover {
 		border: 3px outset #999;
@@ -267,6 +285,19 @@ START MEDIA QUERIES
 		font-size: 2.5em;
 		margin-left: 2%;
 	}
+	.worldmap img {
+		max-width: 800px;
+		float: right;
+		margin-right: 1.5%;
+		margin-top: 5%;
+		padding-left: 10px;
+		width: 48%;
+	}
+	.formContainer {
+		width: 30%;
+		margin-left: 2%;
+		margin-top: 5%;
+}
 
 }
 
@@ -291,13 +322,40 @@ START MEDIA QUERIES
 	}
 	.logo {
 		width: 65px;
-		margin-top: -15px;
+		margin-top: -10px;
 		margin-left: 10px;
 		position: absolute;
 	}
 	.specialOffers p {
 		font-size: .9em;
 	}
+	header img {
+		margin-top: 55px;
+}
+
+	h1 {	
+		margin: -10px 0 0 75px;
+		position: absolute;
+	
+}
+	.smallFont {
+		position: absolute;
+		top: 50px;
+		left: 75px;
+		font-size: 15px;
+		font-family: 'Calligraffitti', cursive;
+	}
+	.worldmap img {	
+		float: right;
+		margin-right: 2.5%;
+		padding-left: 0px;
+		width: 53%;
+	}
+	.formContainer {
+		width: 40%;
+		margin-left: 4%;
+}
+
 }
 
 @media screen and (min-width: 900px) {
@@ -325,6 +383,13 @@ START MEDIA QUERIES
 	}
 	p {
 		font-size: 1.2em;
+	}
+	.formContainer {
+		width: 40%;
+		margin-left: 7%;
+	}
+	.worldmap img {	
+		margin-right: 7%;
 	}
 }
 
