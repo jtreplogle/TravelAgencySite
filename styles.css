@@ -145,7 +145,7 @@ nav a:hover {
 	BOOKING FORM
 ********************/
 .bookingform {
-	min-width:200px; 
+	min-width:250px; 
 	padding:  10px;
 	margin: 0 auto;
 	border-radius: 10px;
@@ -154,7 +154,7 @@ nav a:hover {
 }
 
 .bookingform legend {
-	margin: 4px;
+	margin: 12px 4px 4px 4px;
 }
 
 .button input {
@@ -164,23 +164,23 @@ nav a:hover {
 
 form {
 	border: outset 2px grey;
-	min-width:220px; 
+	min-width:270px; 
 	border-radius: 10px;
 	margin: 0 auto;
 	padding: 10px;
 }
-
+.formContainer {
+	margin-left: 8%;
+}
 
 .formContainer form {
 	float: left;
-	margin-left: 5px;
+	margin-left: 15px;
 }
 
 .worldmap img {
-	max-width: 800px;
-	float: left;
-	display: inline-block;
-	padding-left: 10px;
+	margin: 0 auto;
+	width: 85%;
 
 
 }
@@ -285,6 +285,19 @@ START MEDIA QUERIES
 		font-size: 2.5em;
 		margin-left: 2%;
 	}
+	.worldmap img {
+		max-width: 800px;
+		float: right;
+		margin-right: 1.5%;
+		margin-top: 5%;
+		padding-left: 10px;
+		width: 48%;
+	}
+	.formContainer {
+		width: 30%;
+		margin-left: 2%;
+		margin-top: 5%;
+}
 
 }
 
@@ -317,21 +330,32 @@ START MEDIA QUERIES
 		font-size: .9em;
 	}
 	header img {
-	margin-top: 55px;
+		margin-top: 55px;
 }
 
 	h1 {	
-	margin: -10px 0 0 75px;
-	position: absolute;
+		margin: -10px 0 0 75px;
+		position: absolute;
 	
 }
-.smallFont {
-	position: absolute;
-	top: 50px;
-	left: 75px;
-	font-size: 15px;
-	font-family: 'Calligraffitti', cursive;
+	.smallFont {
+		position: absolute;
+		top: 50px;
+		left: 75px;
+		font-size: 15px;
+		font-family: 'Calligraffitti', cursive;
 	}
+	.worldmap img {	
+		float: right;
+		margin-right: 2.5%;
+		padding-left: 0px;
+		width: 53%;
+	}
+	.formContainer {
+		width: 40%;
+		margin-left: 4%;
+}
+
 }
 
 @media screen and (min-width: 900px) {
@@ -359,6 +383,13 @@ START MEDIA QUERIES
 	}
 	p {
 		font-size: 1.2em;
+	}
+	.formContainer {
+		width: 40%;
+		margin-left: 7%;
+	}
+	.worldmap img {	
+		margin-right: 7%;
 	}
 }
 
