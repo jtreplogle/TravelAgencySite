@@ -41,8 +41,8 @@ img {
 }
 h2 {
 	font-family: 'Calligraffitti', cursive;
-	letter-spacing: 2.5px;
-	font-size: 2em;
+	letter-spacing: 2px;
+	font-size: 1.75em;
 	margin: 0;
 }
 h3 {
@@ -51,6 +51,11 @@ h3 {
 p {
 	font-size: 1em;
 	line-height: 1.5em;
+	text-align: justify;
+}
+.specialButton button{
+	margin: 0 auto;
+	display: block;
 }
 
 /*****************
@@ -133,7 +138,7 @@ nav a:hover {
 	border-radius: 5px 5px;
 } 
 .main_right .specialOffers {
-	padding: 5px;
+	padding: 5px 5px 15px 5px;
 }
 
 /*******************
