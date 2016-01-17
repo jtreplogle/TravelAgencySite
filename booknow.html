@@ -1,0 +1,127 @@
+ <!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Dream Destinations</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+  <body>
+    
+  <div class="container">  <!-- Holds all content -->
+    <a href="index.html" class="selected"><img src="https://www.openoffice.org/images/aoo-logo-100x100.png" alt="" class="logo"></a>
+    <header class="header">    <!-- Start of Main Header Area-->
+      <h1>Dream Destinations</h1>
+          <img src="/Users/kayleecummings/Pictures/NSS/Group Projects/Team Spiders/mountain-curve-crop.jpg"  alt="Mountain">
+          
+      <nav class="nav">   <!-- NAVAIGATION -->
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="destination.html">Destination</a></li>
+          <li><a href="booknow.html" class="selected">Book Now</a></li>
+        </ul>
+      </nav>
+     </header>   <!-- End of Main Header Area-->
+
+    <div class="main">     <!-- Content Begins  -->
+
+        <header>
+          <h2>Book Now</h2>
+        </header>
+  <div class="formContainer">      
+    <form>
+      <section class="bookingform">
+        <legend>Destination</legend>
+          <select class="destination-type" name="type">
+            <option selected="selected" disabled="disabled">Choose Destination</option>
+            <option>Oranjestad, Aruba</option>
+            <option>Buenos Aires, Argentina</option>
+            <option>Marrakech, Morocco</option>        
+            <option>Bangkok, Thailand </option>            
+            <option>Singapore</option>
+            <option>Hanoi, Vietnam</option>
+            <option>Dublin, Ireland</option>        
+            <option>Queenstown, New Zealand</option>
+            <option>Bora Bora</option>
+          </select>
+
+        <legend>Transportation</legend>
+          <input type="radio" name="destination" value="with"> With
+          <input type="radio" name="destination" value="without"> Without
+
+        <legend>Departure City</legend>
+          <select class="departure-city" name="type">
+            <option selected="selected" disabled="disabled">Choose Departure City</option>
+            <option>New York City, New York</option>
+            <option>Atlanta, Georgia</option>
+            <option>Los Angeles, California</option>        
+            <option>Miami, Florida</option>            
+          </select>
+
+        <legend>Month of Departure</legend>
+          <select class="departure-month" name="type">
+            <option selected="selected" disabled="disabled">Choose Month</option>
+            <option>January</option>
+            <option>February</option>
+            <option>March</option>        
+            <option>April</option>            
+            <option>May</option>            
+            <option>June</option>            
+            <option>July</option>            
+            <option>August</option>            
+            <option>September</option>            
+            <option>October</option>            
+            <option>November</option>            
+            <option>December</option>            
+          </select>          
+
+        <legend>Year of Departure</legend>
+          <select class="departure-year" name="type">
+            <option selected="selected" disabled="disabled">Choose Year</option>
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>        
+            <option>2019</option>                        
+          </select>         
+
+        <legend>Length of Stay</legend>
+          <select class="length-of-stay" name="type">
+            <option selected="selected" disabled="disabled">Choose Length</option>
+            <option>5 nights</option>
+            <option>7 nights</option>
+            <option>10 nights</option>        
+            <option>14 nights</option>                        
+          </select>          
+
+        <br>
+        <legend for="adults">Number of Adults</legend>
+          <input type="adults" name="adults">          
+        <br>
+        <legend for="children">Number of Children</legend>
+          <input type="children" name="children">
+
+      <br><br>
+            <!-- book now button -->
+        <div class="button">
+          <input type="submit"value="Book Now"></input>
+        </div>
+      </section>
+    </form>
+
+      <div class="worldmap">
+        <img src="/Users/kayleecummings/Pictures/NSS/Group Projects/Team Spiders/worldmapfinalcrop.jpg"  alt="WorldMap">
+      </div>
+    </div>
+
+
+  </div>    <!-- End of Content -->
+
+    <!-- world map picture -->
+
+
+      <footer class="footer">Dream Destinations | <class="phone"><a href="tel:1-800-867-5309">1-800-867-5309</a></class> | &copy 2016</footer>
+    <!-- End of container div -->
+</body>
+</html>
+
