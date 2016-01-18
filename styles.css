@@ -38,9 +38,9 @@ h1 {
 }
 h2 {
 	font-family: 'Calligraffitti', cursive;
-	letter-spacing: 2px;
-	font-size: 1.75em;
-	margin: 0;
+	letter-spacing: 1.75px;
+	font-size: 2em;
+	margin: 0 0 0 13px;
 }
 h3 {
 	font-size: 1.2em;
@@ -288,7 +288,7 @@ START MEDIA QUERIES
 		border: none
 }
 	.destinations:hover {
-		border: 3px outset #999;
+		border: 2px outset #999;
 }
 	.destinations:nth-child(n+2) {
 		margin-top: 1%;
@@ -296,20 +296,25 @@ START MEDIA QUERIES
 	.allDestinations h2 {
 		font-size: 2.5em;
 		margin-left: 2%;
+		font-weight: bold;
 	}
 	.worldmap img {
 		max-width: 800px;
 		float: right;
 		margin-right: 1.5%;
-		margin-top: 5%;
+		margin-top: 2%;
 		padding-left: 10px;
 		width: 48%;
 	}
 	.formContainer {
 		width: 30%;
 		margin-left: 2%;
-		margin-top: 5%;
-}
+		margin-top: 2%;
+	}
+	.bookNow {
+		font-size: 1.8em;
+		margin-left: 2%;
+	}
 
 }
 
@@ -366,7 +371,10 @@ START MEDIA QUERIES
 	.formContainer {
 		width: 40%;
 		margin-left: 4%;
-}
+	}
+	.bookNow h2 {
+		margin-left: 4%;
+	}
 
 }
 
@@ -389,6 +397,9 @@ START MEDIA QUERIES
 	}
 	h2 {
 		font-size: 1.7em;
+	}
+	.bookNow h2 {
+		margin-left: 7%;
 	}
 	h3 {
 		font-size: 1.4em;
