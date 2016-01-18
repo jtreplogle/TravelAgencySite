@@ -29,9 +29,6 @@ h1 {
 	position: absolute;
 	
 }
-img {
-	width: 100%;
-}
 .smallFont {
 	position: absolute;
 	top: 38px;
@@ -56,6 +53,22 @@ p {
 .specialButton button{
 	margin: 0 auto;
 	display: block;
+}
+img {
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*****************
+	BUTTON 
+******************/
+button {					
+	background-color: rgba(116, 140, 154, .5);
+	margin: auto;
+	display: block;	
+}
+button a {
+	text-decoration: none;
 }
 
 /*****************
@@ -188,7 +201,7 @@ form {
 /*header {
 	width: 100%;
 	margin: 0 auto;
-}*/*/
+}*/
 /*.worldmap.style {
 	max-width: 200px;
 	float: left;
@@ -225,6 +238,7 @@ form {
 	margin: 1%;
 	border-radius: 10px;
 	border: 1px outset #999;
+	
 }
 .destinations:nth-of-type(n+2) {
 	margin-top: 5%;
@@ -232,23 +246,21 @@ form {
 .allDestinations h2 {
 	font-size: 2em;
 	margin-left: 2%;
-
 }
 .destinations img {
-	border-radius: 5px 5px 0;
-
+	border-radius: 5px 5px;
 }
 .allDestinations {
 	padding: 1%;
 	margin: 0 auto;
+	
 }
 .destinations button {
 	border-radius: 10px;
 	
 }
 .destinations button a {
-	color: rgb(6, 99, 228);
-	
+	color: rgb(6, 99, 228);	
 }
 
 
